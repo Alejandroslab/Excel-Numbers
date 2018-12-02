@@ -1,0 +1,30 @@
+Numbers guide
+
+Hi,
+
+Does anyone know how to have a SUMIF apply if a cell contains a certain text?
+
+Example:
+
+Product Sales
+Pen $132
+Magic Pen $5
+Books $10
+
+
+I'd like a SUMIF so that if the product name contains "Pen" it would add the sales, result in example = $137.
+
+Can anyone help me please??
+Thanks a lot! 
+
+ANSWER:
+=SUMIF(A2:A4,"*pen*",B2:B4) 
+
+
+If you use & between the "*" and the cell reference it works fine.
+
+example:
+
+=SUM(SUMIF(A2:A4,"*"&B1&"*",B2:B4))
+
+A 'fun' side effect of this is if the cell reference is blank it will pull everything and sum the whole range. (since ** = anything) 
