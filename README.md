@@ -1,2 +1,2 @@
 # Excel-Numbers
-Excel &amp; Numbers
+Excel &amp; Numbers for Mac.
