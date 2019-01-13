@@ -1,0 +1,7 @@
+insert this formula
+
+IF($B11<>"*",$A10+1,if-false)
+
+that means if B11 cell is not empty than sum A10 +1. If-false do nothing.
+
+then you can edit this formula in the ways you wish
