@@ -9,6 +9,9 @@ Ctrl+d = autofill
 Ctrl+t = create a table
 Ctrl+q = quick analysis
 
+
+ctrl+PgUp = change sheet
+
 MAC
 to go to the last value of a column: shift + cmd + arrow down
 
