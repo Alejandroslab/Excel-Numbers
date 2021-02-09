@@ -2,7 +2,7 @@ WINDOWS
 Shift + Spacebar = select the row
 Alt+I+R = add a new row above
 
-F2 = edit a cell
+F2 or Ctrl+u= edit a cell
 F12 = save as
 F4 = absolute and relative references
 Ctrl+d = autofill
@@ -11,3 +11,16 @@ Ctrl+q = quick analysis
 
 MAC
 to go to the last value of a column: shift + cmd + arrow down
+
+cmd+option+0 = Outline (set the outline border of the selected cells)
+cmd+option+arrow up = Borders shortcut (top)
+cmd+option+arrow down = Borders shortcut (bottom)
+cmd+option+left/right borders = Other borders shortcut (left/right)
+cmd+option+- = delete borders
+shift + cmd+ c = copy formatting of a cell
+ctrl+cmd+spacebar = insert a special character 
+cmd+t =  when cell is active edit absolute, relative references
+cmd+option+w = add a comment
+cmd+opt+t = add a textbox
+cmd+opt+1 = add rows
+option+z = Sigma greek letter (capital letter)
