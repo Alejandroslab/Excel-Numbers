@@ -3,3 +3,5 @@ To compare 2 columns just go on a third one and:
 =A1=B1
 
 it will provide true or false if(or not) the value of each cell of the columns is the same
+
+or you can use Exact function
