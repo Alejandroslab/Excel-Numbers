@@ -19,3 +19,7 @@ In this case the following coulde be inteded the same as: Range(“A1”).Value 
 Range(“A1”) 
 Selection.Value = “Hello World”
 
+
+SHORTCUTS
+In order to overcome the impossibilty to set some custom shortcuts, you have to use Macros in Excel.
+(In Word customize keyboard is possible.Does not make much sense..)
