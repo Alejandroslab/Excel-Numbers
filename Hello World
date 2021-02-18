@@ -1,0 +1,6 @@
+Range(“A1”).Value = “Hello World”
+
+or:
+
+Range(“A1”) 
+Selection.Value = “Hello World”
