@@ -1,0 +1,35 @@
+You can usually:
+
+TRIM(A1)
+
+or TRIM(CLEAN(A1))
+
+or:
+select your cells (columns or whatever)
+then:
+
+ctrl+h
+put a space in find (or ctrl+j inside 'find' if you know that is not a space)
+and replace all
+
+
+Sometimes the character that we are trying to delete is not a space but could
+be another symbol.
+To inspect the char code of this symbol
+use, (supposing that you will work with cell A1)
+
+CODE(LEFT(A1))
+and
+
+CODE(RIGHT(A1))
+
+to inspect the left side of the cell and then the right side
+
+if the char code is 160 then you will know that the character
+is a breaking line and not a space then you
+should process in this way:
+
+
+=SUBSTITUTE(A1,CHAR(160), "")
+
+it will replace the char 160 with nothing
