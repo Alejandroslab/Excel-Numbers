@@ -1,0 +1,24 @@
+if you want to delete a word you can do this with replace
+
+if in a cell we have
+
+'I eat an apple in the morning'
+
+and i want to delete 'apple'
+
+i will look for
+
+'apple '
+
+note that there is a space. if you don't put the space and leave blank the replacemente text
+
+you will get:
+
+'I eat an  in the morning'
+
+you can notice a double space. therefore just add a space in the textbox 'Find what'
+
+Find what: 'apple '
+
+Replace with: ''
+In replace with you will just put nothing!
