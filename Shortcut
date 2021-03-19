@@ -11,7 +11,7 @@ Ctrl+t = create a table
 Ctrl+q = quick analysis
 
 ctrl+ shift + % = format as percentages (percent styles)
-
+ctrl + alt + v = paste special menu (useful to paste just format)
 
 ctrl+PgUp = change sheet
 
