@@ -10,6 +10,8 @@ Ctrl+d = autofill
 Ctrl+t = create a table
 Ctrl+q = quick analysis
 
+ctrl+ shift + % = format as percentages (percent styles)
+
 
 ctrl+PgUp = change sheet
 
