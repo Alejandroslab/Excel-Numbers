@@ -13,6 +13,9 @@ Ctrl+q = quick analysis
 ctrl+ shift + % = format as percentages (percent styles)
 ctrl + alt + v = paste special menu (useful to paste just format)
 
+alt + h + 0 (zero) = increase decimal
+alt + h + 9 = decrease decimal
+
 ctrl+PgUp = change sheet
 
 MAC
