@@ -1,0 +1,14 @@
+remember that in excel you can add a spinner that is a
+ up and down button
+
+ you have to go to the develope tab and select spinner
+
+
+ you can then link it to an excel cell
+ click right on it -> format object then
+ select 'control'
+ and select 'cell link'
+
+ the minimum value is 0 and the maximum is 30 000
+
+ it does not support negative numbers.
