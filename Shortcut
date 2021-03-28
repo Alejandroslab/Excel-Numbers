@@ -35,3 +35,4 @@ cmd+option+w = add a comment
 cmd+opt+t = add a textbox
 cmd+opt+1 = add rows
 option+z = Sigma greek letter (capital letter)
+ctrl+ shift + % = format as percentages (percent styles)
