@@ -1,0 +1,7 @@
+the new stockhistory function allows you to get stock quotes
+from refinitiv.
+
+you can also have more info clicking on Data Tab and selecting
+the Stock icon.
+this will conver the cell on a dynamic cell with a lot
+of stock info
