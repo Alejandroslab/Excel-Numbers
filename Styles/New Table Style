@@ -1,0 +1,6 @@
+It is not possible to change fonts as theyr are not
+part of the table styles.
+
+Table styles are about the coloring of the cells.
+The font is determined by the workbook
+theme and/or the cell style.
