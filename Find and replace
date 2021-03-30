@@ -3,3 +3,39 @@ Select column and ctrl + f (not command but ctrl)
 
 to open directly replace windows
 ctrl+h
+
+
+REMEMBER!
+you have to be careful regarding spaces. As for example looking
+for the term 'Con' is not like looking 'Con ' (you see the space)
+
+in the first case the program will find all the words that start
+with 'Con'
+Like
+'Con'
+'Converted'
+'Conversion'
+...
+
+in the latter case it will find only
+'Con' words
+
+if you click on 'Find all'
+it will appear a list of all the terms
+
+you can manually select some of them (even with shift key) to
+highlight them and then you can performa replace function on just then
+selected ones (if you need to replace)
+
+
+you can also delete doble spaces like "  "
+
+"my dog is  beautiful"
+
+you can delete the double space
+just find "  " (just press twice the space)
+and then replace with
+
+" " (just press once the space)
+
+DONE!
