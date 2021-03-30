@@ -17,3 +17,5 @@ cmd+shift+v = paste formatting
 cmd+8 = show formatting marks
 cmd + < = change color to the text
 
+
+you can assign a shortcut to FormatParagraph in order to open the format window
