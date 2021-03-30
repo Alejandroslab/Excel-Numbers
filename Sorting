@@ -11,3 +11,8 @@ the same result can be obtained with the command filter
 to clear filters jus use 'clear' on the 'Data' tab (small button on the side of filter)
 
 To filter using a range you can use 'number filter' or 'text filter'
+
+another useful command is 'Subtotal'
+it allows you to sort data and then get the Subtotal
+
+it si similar to sumif
