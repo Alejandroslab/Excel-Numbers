@@ -1,0 +1,43 @@
+useful to analyse very large datasets.
+
+it allows to get some 'summaries'
+
+to creat a pivot table click on a cell
+inside your data and then 'Create a Pivot Table'
+
+this will ask where to analyse data, creating a new sheet
+
+on the right it will appear a bar with inside the name of the columns
+
+you can drag them on some boxes that are
+'Filters' 'Columns' 'Rows' 'Values'
+
+Dragging in Excel it will automatically extract data
+It will consider data following 'Filters' 'Columns' 'Rows' 'Values'
+
+it is possible to input more columns in the same boxes
+
+if you move them you will have some differents views
+
+to delete a column name just click on 'uncheck'
+
+to evalutate the value of a single cell double click or click right and 'Show details'
+
+you wil get a drawdown report that will allow you to see the details.
+
+to format values. click right then 'number format' and choose the format
+
+PIVOT CHARTS
+Pivot charts are charts in which you can set filters and that are dinamic
+that means that will change as data changes.
+
+to change chart type you have to use 'Change chart type'
+
+in the tab 'analysee it is possible to group a selection the command
+'Group selection'
+
+Single groups can be renmaed simply renaming them
+
+'insert slicer' allow to divide data e to see one by one the
+results on a pivot chart basing on the buttons that are select.
+You can edit the slicer title using 'insert caption' in the ribbon

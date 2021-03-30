@@ -1,0 +1,14 @@
+it allows to set how many characters
+you can put in a set of cells that we will indicate before
+clicking on the button.
+
+You can also insert an input message and an error message.
+
+You can also point a set of prexisting data.
+
+Data validation will allow to create a dropdown menu in which
+choose the preexisting values (for example you use a column of preexisting data)
+
+you can use also data validation to impose to insert values below a certain treshold
+
+you can use also autofill
