@@ -1,0 +1,13 @@
+if you divide a table with a blank column it will be sorted only a side of
+the table and the other side will remained unchade.
+
+If you want to make a more complex sorting you have to use the button sort
+
+if you want to sort a table based on the day you have to select button sort and
+selecct order->custom list (from the dropdown menu)
+
+the same result can be obtained with the command filter
+
+to clear filters jus use 'clear' on the 'Data' tab (small button on the side of filter)
+
+To filter using a range you can use 'number filter' or 'text filter'
