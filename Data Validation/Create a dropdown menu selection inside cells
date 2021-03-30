@@ -1,0 +1,40 @@
+first create the table where you want to
+store the data that will appear as
+options inside the dropdown menu
+
+give it a name like
+
+Clients_Table
+
+to renmae the table just use the little text box on the left side
+after selecting the cells
+
+
+then go to your cell where you want to create the dropdown
+(you will be able to copy them just using autofill)
+
+Select tab 'Data' then 'Data Validation'
+
+in data validation in validation criteria select "List"
+
+In Source select or press F3 to point your table renamed as
+
+Clients_Table
+
+(first inser an '=' equal sign)
+
+select tab 'Input message' and deselect the input message
+(this could be annoying as it would display everytime you click on your selected cell)
+
+click ok
+
+now you can perform autofill to copy this setting to more cells
+
+REMMEBER! when you have multiple tables then you have to rename them
+in table2 table3, etc
+
+for example
+if you have renamed the first table as
+Clients_Table
+
+you have to rename other table with different name otherwise data validation will not work

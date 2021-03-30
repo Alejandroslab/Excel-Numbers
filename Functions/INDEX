@@ -1,0 +1,12 @@
+You can use index to get the index values of a table
+
+indexes are the indicators of position
+
+INDEX (range, row-index, column-index, area-index)
+
+the first 3 are mandatory the latter one is not
+
+
+On numbers to indicate a table with also the rows that will autodd to the formula:
+
+Table::FirstColumn::LastColumn 
