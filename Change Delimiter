@@ -1,0 +1,8 @@
+Open settings go to Regional Settings
+
+then go on 'Advanced'
+
+On List change the delimiter from comma to anything else
+
+this is useful when you have to import a csv with some commas
+discrepancies (like when comma and points coexist (us and eu excel files)
