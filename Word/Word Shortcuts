@@ -2,8 +2,16 @@ WINDOWS
 Ctrl+5 = paragraph spacing 1.5
 Shift+F3 = change Uppercase
 
+Select just one word with keys:
+
+ctrl + shift + right/left arrow
+
 
 MAC
+you can customize your keyboard shortcuts with
+
+Tools> Customise Keyboard
+
 Cmd+shit + > = increase font
 cmd+< = decrease font
 ctrl+tab = tab in a table
@@ -19,3 +27,6 @@ cmd + < = change color to the text
 
 
 you can assign a shortcut to FormatParagraph in order to open the format window
+
+ACTIONS
+clicking twice on a word = select the word
