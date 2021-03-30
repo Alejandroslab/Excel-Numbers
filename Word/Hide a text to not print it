@@ -1,0 +1,20 @@
+If you want to avoid printing some text while you want
+to keep it inside the file you have to 'hide' it
+
+to do that:
+
+Select the text
+
+Open font setting (or ctrl+d)
+Select "Hidden"
+Click ok
+
+Now if you want to see the text
+Go to home e click on "Show paragrah"  shortcut "ctrl+( "
+
+If you want to unhidden now select the text when "show paragraph" is enabled
+Select the font setttings again (or ctrl +d)
+Select hidden
+Click ok
+
+And it will be unhidden
