@@ -15,4 +15,8 @@ To filter using a range you can use 'number filter' or 'text filter'
 another useful command is 'Subtotal'
 it allows you to sort data and then get the Subtotal
 
-it si similar to sumif
+it is similar to sumif
+
+
+remember! sort and filter work better with absolute references and not with relative ones.
+therefore don'use the absolute one.
