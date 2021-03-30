@@ -15,10 +15,10 @@ Books $10
 I'd like a SUMIF so that if the product name contains "Pen" it would add the sales, result in example = $137.
 
 Can anyone help me please??
-Thanks a lot! 
+Thanks a lot!
 
 ANSWER:
-=SUMIF(A2:A4,"*pen*",B2:B4) 
+=SUMIF(A2:A4,"*pen*",B2:B4)
 
 
 If you use & between the "*" and the cell reference it works fine.
@@ -27,4 +27,7 @@ example:
 
 =SUM(SUMIF(A2:A4,"*"&B1&"*",B2:B4))
 
-A 'fun' side effect of this is if the cell reference is blank it will pull everything and sum the whole range. (since ** = anything) 
+A 'fun' side effect of this is if the cell reference is blank it will pull everything and sum the whole range. (since ** = anything)
+
+
+if you have a lot of SUMIF remmeber that could be useful a pivot table
