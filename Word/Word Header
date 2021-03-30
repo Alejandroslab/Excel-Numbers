@@ -1,0 +1,8 @@
+If you want to have some headers with counting pages that inerrupts and starts from another number
+
+you have first to create sections
+
+then go to format pages ->Numbers ->'Starts at'
+
+and insert the number from which you desire the counting
+to start 
