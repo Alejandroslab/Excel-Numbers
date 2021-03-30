@@ -1,0 +1,9 @@
+All you need to do is remove the Excel12.xlb file and
+the XLSTART directory located here: C:\Documents and Settings\user\Application Data\Microsoft\Excel.
+Then, start Excel and the directory and file will get recreated automatically.
+
+NOTE: The system won't let you delete the directory
+ and file right away; what you want to do is move
+ them to a temporary alternate location.
+ You can delete these old files after you restart Excel
+  (and the directory and file automatically get recreated).
