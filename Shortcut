@@ -1,3 +1,6 @@
+Generally you cannnot create some key combination to get shortcuts as in Word.
+Therefore you need to setup macros or use just the Alt +... combinations.gs
+
 WINDOWS
 Shift + Spacebar = select the row
 Alt+I+R = add a new row above
@@ -21,6 +24,7 @@ alt + h + A + L = align right
 ctrl+PgUp = change sheet
 
 MAC
+F2 or Ctrl+u= edit a cell
 to go to the last value of a column: shift + cmd + arrow down
 
 cmd+option+0 = Outline (set the outline border of the selected cells)
@@ -36,3 +40,14 @@ cmd+opt+t = add a textbox
 cmd+opt+1 = add rows
 option+z = Sigma greek letter (capital letter)
 ctrl+ shift + % = format as percentages (percent styles)
+
+drag a formula without formatting = just select 'fill without formatting' after pasting
+write a formula as a text = Just digit the symbol ‘ before the equal symbol (that is : ‘= )
+Link cells when copying (you want to copy but to link the values to the value that are copied)
+= When pasting select ‘link cells’
+
+Link cells +  transpose them = You need to define a name firstly. Select the data you want to transpose and define a name in the top-left corner near the formula bar. Then just select the cells in which you want to transpose your data. Insert a formula with the function TRANSPOSE(mydata) where ‘mydata’ is the name of the named group of cells that you have previously made. Now just press Shift + opt + enter and the data will be tranposed
+How to move single cells in a column of cells (invert/flip data) = Select the cell you want to move. Then press shift. Keep pressed shift and click on the basis of the cell at the middle. Then move the mouse and you will see a green segment. Release up in the cell above and the data willl flip
+
+
+How to setup my own shortcuts in Mac = Just go on system prefs> keyboard> shortcuts> app shortcuts> select the app you want in this case Excel> set the EXACT name of the command you want to create a shortcut > set the combination ok keys > click ok. Done
