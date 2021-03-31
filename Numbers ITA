@@ -1,0 +1,80 @@
+Formule numbers
+
+per autoaggiornare una cella quando si aggiungono nuove righe, sulla base dell’andamento dell’ultimo valore in una colonna:
+
+Si utilizza INDEX che serve a restituire UN SOLO VALORE da un intera tabella sulla base delle coordinate che gli vengono fornite mediante gli indici o index.
+
+ho fatto:
+
+INDEX(Mario saldo debito vs. Di me::Data:Somme;
+IF(Mario saldo debito vs. Di me::Importo≠"";COUNT(Mario saldo debito vs. Di me::Data)+COUNTBLANK(Mario saldo debito vs. Di me::Data)+1;if-false)
+;5;area-index)
+
+Index serve a restituire un valore determinato dagli indici (ovvero dagli indicatori di posizione di una tabella)
+La sintassi di INDEX è
+
+INDEX (range, row-index, column-index, area-index)
+
+Dove I primi 3 sono obbligatori e l’ultimo no
+
+1. Il primo argomento range indica la tabella dalla quale si vuole estrarre il valore
+Si indica quindi la tabella
+
+Su numbers per indicare una tabella CON ANCHE LE NUOVE RIGHE CHE SI AUTOAGGIUNGONO ALLA FORMULA si deve usare la sintassi:
+
+Tabella::PrimaColonna::UltimaColonna (Senza apostrofi!)
+
+Come si vede nell’esempio Mario saldo debito vs. Di me::Data:Somme
+
+
+2. Nel secondo argomento come row-index ovvero l’indice della riga alla quale si fa riferimento per trovare il valore, si può inserire un if statement. Nell’esempio fa questo:
+
+If colonna importo è diverso da un valore vuoto ovvero: se ogni singola cella della colonna importo è COMPILATA allora:
+
+Conta il numero di elementi NON VUOTI della colonna ‘Data’ e sommaci gli elementi sempre della colonna ‘Data’ che pero sono VUOTI.
+
+(In questo modo gli si dice di sommare ogni singolo elemento Anche se magari non si è inserito il valore. Questo in sostanza vuol dire che il programma contera il numero di righe della tabella in questione )
+
+A questi aggiungi 1 (serve perche cosi il valore dell’indice si aggiorna di conseguenza.
+
+Se questo if è falso, non fare niente
+	1. Come column-index visto che le colonne sono 5 e il valore si trova in fondo a tale colonna, il column-index sarà 5 (anche perche la tabella si aggiornerà verso il basso ovvero crescerà verso il basso quando verranno aggiunte nuove righe)
+	1. Area-index non si inserisce
+
+
+Per nestare una formula in una stringa di testo
+
+Esempio da spiegare:
+
+VALUE(PLAINTEXT(B2÷500))& " " &"volte 1 mensilità di rdc necessari per saldare debito"
+
+
+Semplicemente occorre inserire il testo all’interno di una formula tra  virgolette “ “
+
+Quindi ad esempio in questo caso si è voluto usare una formula che si autoaggiorna sulla base di un valore presente nella cella B2
+
+Quindi
+
+VALUE serve solo a eliminare il simbolo della valuta € o ¥ $, £ per ottenere solo un numero (utile quando si fanno rapporti ecc.)
+
+PLAINTEXT serve a inserire come testo un numero o qualsiasi altra cosa come ad esempio il risultato di una formula
+
+Il simbolo & serve per collegare più stringhe (che possono essere anche stringhe vuote)
+
+--
+In questo caso quindi si avrà come risultato il valore dell’operazione con poi uno spazio collegato con il connettore logico & al plaintext precedente.
+Lo spazio tra il risultato della funzione PLAINTEXT è la stringa di testo successivo è  reso da un altra stringa vuota che viene realizzata con le virgolette con in mezzo uno spazio bianco “ “
+
+dopo la stringa bianca si collega ancora con un & la stringa finale di testo
+
+il risultato finale è
+
+3 volte Il capitale
+
+4 volte il capitale
+
+5 volte il capitale
+
+ecc..
+
+Con il valore numerico che si aggiorna sulla base della formula interna alla funzione PLAINTEXT
