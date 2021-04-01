@@ -1,0 +1,11 @@
+this is very common when you have macros
+
+go to developer tab and click on macros.
+if you have macros, word will always prompt to save any files
+even if you have not made any change
+
+When the macro "fires",
+the system registers that as a change,
+even if no changes were made. Hence the save prompt.
+
+therefore no real issue and no solution to this
