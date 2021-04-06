@@ -23,6 +23,10 @@ alt + h + A + L = align right
 
 ctrl+PgUp = change sheet
 
+ctrl+ scrolling wheel or touchpad: zoom
+
+
+
 MAC
 F2 or Ctrl+u= edit a cell
 to go to the last value of a column: shift + cmd + arrow down

@@ -3,3 +3,7 @@ It will create a row above the selected row
 
 For columns, position yourself to the right where you want to create a new columne
 (in the left it will be created the new column)
+
+To create more empty columns select the number of columns that you want
+(it does not matter if they are empty or not) then right click and 'Insert'
+and the new columns will be created (the same for rows)

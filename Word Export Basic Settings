@@ -1,0 +1,17 @@
+How to export your basic Microsoft Word custom settings
+If you need to transfer basic settings you have customized,
+such as default font family and size, your macros, etc.,
+to your laptop or elsewhere,
+this can be achieved by replacing Word’s default normal template
+with the one containing your own changes.
+
+
+To locate your customized normal template go to Word’s
+ Options > Advanced > General > File Locations.
+Open the File Locations panel to find the User Templates location.
+Copy and paste you template folder in the relevant folder of any other Office installation you are using,
+ or just in your backup folder to transfer it later wherever you need.
+To export your Ribbons and Quick Access Toolbar:
+ Go to Options > Customize Ribbon > Import / Export
+ , to save or restore your Ribbon settings.
+ This includes the Quick Access Toolbar settings.
