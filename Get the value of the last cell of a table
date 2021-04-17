@@ -1,0 +1,11 @@
+you have a table that will refresh adding more rows
+you want to get the last cell on the last row every time
+and you want that your formula updates automatically
+
+just use:
+
+LOOKUP(2,1/(A:A<>""),A:A)
+
+2 and 1 are necessary
+while A:A is the column in which to lookup
+<>"" means 'different than empty'
