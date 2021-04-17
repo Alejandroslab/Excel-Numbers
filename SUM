@@ -1,9 +1,0 @@
-Remeber that SUM can sum single value and intervals at the same time:
-
-SUM(D48 ; G48:G51; 100)
-
-The first one is a cell, the second an interval and the latter is a number
-
-you can also use the button 'Autosum' on 'Editing' or just press
-
-alt + =
