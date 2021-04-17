@@ -1,0 +1,21 @@
+to change the name
+select any cell inside your table
+
+go to 'Table Design' (that only activates when you are inside a table)
+Go to the 'Properties' section
+
+Below 'Table Name' you can change it
+
+CAREFUL! Just select ONE cell and not all the content
+with ctrl+a
+
+If you select with ctrl+a and rename it
+you are not renaming the table even though the table name appears
+you are just renaming a section, a group of cells!
+In this case you will not be able to recall the columns
+with the squared brackets like
+
+Mytable[Column1]
+
+excel will not suggest anything because you have renamed
+just a portion of the table
