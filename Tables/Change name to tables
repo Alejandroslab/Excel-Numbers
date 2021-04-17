@@ -1,3 +1,13 @@
+Most of the times when you have lot of table you may need to
+rename your tables.
+This could be useful when you want to operate
+a lot between your tables.
+Renaming will easy the work.
+You will be able to recall columns quickly with the format
+Mytable[Mycolumn]
+
+This last way of indicate data is called 'structured reference'
+
 to change the name
 select any cell inside your table
 
