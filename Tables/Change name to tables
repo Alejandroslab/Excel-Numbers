@@ -2,7 +2,8 @@ Most of the times when you have lot of table you may need to
 rename your tables.
 This could be useful when you want to operate
 a lot between your tables.
-Renaming will easy the work.
+Renaming will easy the work. As you can also copy down formulas and just change the
+table name to get the table data!
 You will be able to recall columns quickly with the format
 Mytable[Mycolumn]
 
