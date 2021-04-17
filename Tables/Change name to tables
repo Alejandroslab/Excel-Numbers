@@ -16,6 +16,9 @@ Go to the 'Properties' section
 
 Below 'Table Name' you can change it
 
+CAREFUL! do not click on the cell and rename in the bar near the formula bar
+as this will not rename the table but only that single cell!
+
 CAREFUL! Just select ONE cell and not all the content
 with ctrl+a
 
