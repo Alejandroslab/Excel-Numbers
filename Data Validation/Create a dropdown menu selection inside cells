@@ -20,7 +20,7 @@ you can find it in the Name Manager
 then go to your cell where you want to create the dropdown
 (you will be able to copy them just using autofill)
 
-Select tab 'Data' then 'Data Validation'
+Select tab 'Data' then 'Data Validation' (shortcut: alt+a+v+v)
 
 in data validation in validation criteria select "List"
 
