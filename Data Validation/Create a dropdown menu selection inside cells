@@ -10,8 +10,11 @@ REMEMBER! You have to name your selection ending with '_Table' otherwise it will
 
 
 
-to renmae the table just use the little text box on the left side
-after selecting the cells
+to rename the table just use the little text box on the left side
+after selecting the cells!
+When you click enter nothing will happens.
+The cell will go back to its previous name but it has saved the selection as a table
+you can find it in the Name Manager
 
 
 then go to your cell where you want to create the dropdown
