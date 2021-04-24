@@ -12,3 +12,5 @@ choose the preexisting values (for example you use a column of preexisting data)
 you can use also data validation to impose to insert values below a certain treshold
 
 you can use also autofill
+
+A table cannot have spaces in its name 
