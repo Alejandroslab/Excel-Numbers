@@ -2,12 +2,15 @@ first create the table where you want to
 store the data that will appear as
 options inside the dropdown menu
 
+then select all the data and RENAME THE SELECTION
 give it a name like
 
 Clients_Table
 
 REMEMBER! You have to name your selection ending with '_Table' otherwise it will not work!
 
+This will create a renamed ranged (different from the name of the actual table)
+with this you will be able to use data validation
 
 
 to rename the table just use the little text box on the left side
@@ -45,3 +48,7 @@ if you have renamed the first table as
 Clients_Table
 
 you have to rename other table with different name otherwise data validation will not work
+
+_______________________________________________________________________
+If you create multiple names with the same selection they will not be overwritten
+you have to delete them from 'Name Manager'
