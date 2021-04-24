@@ -41,3 +41,8 @@ and then replace with
 (then you can replace all if you wish)
 
 DONE!
+
+You can also find and replace dates like:
+
+find: 03/03/2020
+replace: 04/03/2020
