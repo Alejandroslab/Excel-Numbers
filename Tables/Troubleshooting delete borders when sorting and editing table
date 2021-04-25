@@ -1,0 +1,8 @@
+when you have a table and you filter and apply some changes
+some borders can weirdely change
+if you try to fix it editing borders anything will change
+
+how to solve
+
+just add a new row near the row with the new border (alt+i+r)
+then magically all borders will return to the default format
