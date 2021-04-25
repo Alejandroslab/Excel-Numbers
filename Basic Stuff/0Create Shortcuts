@@ -1,0 +1,10 @@
+In Excel you cannot create and customize shortcut (unlike Word)
+If you want to create a shortcut
+you can workaround it
+adding the command you wish to the Quick Access Toolbar
+and then use the 'alt + ...' shortcut
+
+e.g. you wish to add 'Insert Table Row Below'
+Add a command in the Quick Access Toolbar
+then select 'All Commands' and look for 'Insert Table Row Below'
+then you can use the excel built-in 'alt + ...' shortcut
