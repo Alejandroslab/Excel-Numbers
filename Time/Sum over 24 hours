@@ -1,0 +1,11 @@
+You have to just use the SUM function
+
+then change the number format as Custom with:
+
+[h]:mm
+
+if you leave it as defautl the number format you will get days
+e.g.
+2 for 48 hours
+
+with that custom number format you will get '48'
