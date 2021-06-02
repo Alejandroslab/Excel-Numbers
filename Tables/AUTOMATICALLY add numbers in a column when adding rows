@@ -1,0 +1,23 @@
+You have to use ROW function
+ROW function will retrieve the number of the row in which you are 
+This means the number at the left side in the bar
+
+In order to add a column that will automatically add numbers when you add a new row:
+if you have already created the table you have to undo that 
+you can undo that going to 'Table Design' and click on 'Convert to Range'
+
+Now in your desired column click on the first cell in the first row and type:
+
+=ROW()-1
+
+you can change you -1 with -2,-3,-4 accordingly to your position
+otherwuse (when your table starts not properly at the beginning of the sheet) you will not get 1 but
+you will get e.g. 5.
+
+then click and drag the formula until the last cell
+
+Now recreate the table (or create it if you have not have done it already)
+ctrl+t
+
+DONE!
+now if you want to create a new row you will see that a new number will automatically be created!
