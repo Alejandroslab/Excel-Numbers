@@ -5,6 +5,7 @@ WINDOWS
 Shift + Spacebar = select the row
 Alt+I+R = add a new row above
 ctrl +  = add a new column (when selecting a prexisting columns)
+ctrl + spacebar then ctrl + + = add a new column quickly
 
 F2 or Ctrl+u= edit a cell
 F12 = save as
