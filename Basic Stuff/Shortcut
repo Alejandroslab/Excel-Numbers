@@ -7,6 +7,8 @@ Alt+I+R = add a new row above
 ctrl +  = add a new column (when selecting a prexisting columns)
 ctrl + spacebar then ctrl + + = add a new column quickly
 
+select rows then ctrl + + = add multiple rows
+
 F2 or Ctrl+u= edit a cell
 F12 = save as
 F4 = absolute and relative references
@@ -21,10 +23,17 @@ alt + h + 0 (zero) = increase decimal
 alt + h + 9 = decrease decimal
 alt + h + A + L = align right
 
+alt + h + o + a = autofit row height
+alt + h + w = wrap/unwrap text
+
+
 
 ctrl+PgUp = change sheet
 
 ctrl+ scrolling wheel or touchpad: zoom
+
+
+
 
 
 

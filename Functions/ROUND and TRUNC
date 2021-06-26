@@ -1,0 +1,9 @@
+To round a number you can use ROUND or TRUNC
+
+ROUND(A1; 1)
+with this function you will round at the first decimal number
+
+ROUND(A1; 0)
+with this you will keep just the integer
+
+alternatively you can use TRUNC
