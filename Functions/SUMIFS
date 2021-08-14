@@ -1,0 +1,14 @@
+To sum betwween two dates you can use;
+
+=SUMIFS(Incassi[INCASSO];Incassi[DATA];">="&"01/01/2021";Incassi[DATA];"<="&"31/01/2021")
+
+this will sum up all the Cash from 01/01/2021 to 31/01/2021
+
+where the column in which the dates are set is called 'Incassi[DATA]'
+
+remember thas sumifs has a different structure than sumif
+
+first the sum range then the criteria range and finally the criteria
+
+while in the sumif
+is the criteria range then the criteria and finally the sum range
